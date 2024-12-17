@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class DB {
 
-    private static Connection conn = null;
+    public static Connection conn = null;
 
     public static Connection getConnection() {
         if (conn == null) {
